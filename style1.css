@@ -1,0 +1,45 @@
+/* Relational selectors 
+child => A > B
+Adjacent Sibling => A + B (select )
+General Sibling => A ~ B
+
+*/
+
+p{
+	margin-left:50px;
+}
+
+h4{
+	text-align:center;
+}
+
+body p {
+	font-family:Helvetica;
+	font-size:20px;
+}
+
+div	>p {
+	color:red;
+}
+
+section~p{
+	color:maroon;
+}
+
+/* Attribute selectors
+a[attribute]
+a[attribute=value]
+*/
+a[target]
+{
+text-decoration:none;
+}
+a[target=_blank]
+{
+ font-size : x-large;
+}
+section[class$="para"]::first-letter
+{
+font-size:200%;
+color:purple;
+}

@@ -1,0 +1,55 @@
+/*Css selectors & pseudoclasses */
+#signupform {
+    width: 650px;
+    height: 330px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+ }
+
+#signupform h1 {
+    position: relative;
+    font: italic 2em 'trebuchet MS';
+    color: black;
+    text-align: center;
+    margin: 0 0 20px;
+}
+/*:before & :after are pseudoclass */
+#signupform h1::before{
+    content:'<-';
+    }
+
+#signupform h1::after{
+    content:'->';    
+}
+
+#signupform input{
+    margin: 5px 0;
+    padding: 15px;
+    width: 100%;
+    boarder: 1px solid #ccc;    
+}
+#signupform input:focus{
+        outline: 0;
+        border-color: #aaa;        
+} 
+
+#signupform button{
+    margin: 20px 0 0 0;
+    padding: 15px 8px;          
+    width: 100%;
+    border: 1px solid #2493FF;
+    color: #fff;
+    font: bold 1.4em arial, helvetica;
+    background-color: #2493ff;                                  
+} 
+
+#signupform button:hover{
+    background-color: #7cbfff;
+        border-color: #7cbfff;
+}
+
+#signupform button:active{
+    position: relative;
+    top: 3px;  
+}
