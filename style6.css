@@ -1,0 +1,47 @@
+/*color modules*/
+#parentid{
+	background-color:#2196f3;
+	border:1px solid white;
+	height:200px;
+	width:200px;
+}
+
+#childid1{
+	background-color:grey;
+	border:1px solid white;
+	color:white;
+	height:200px;
+	marign-left:50px;
+	margin-top:50px;
+	/*opacity property*/
+	opacity:0.5;
+	width:400px;
+}
+
+#childid2{
+	/*RGBA color model - Red Blue Green - (0 - 255) Alpha (0-1)*/
+	background-color:RGBA(128,128,128,0.5);
+	border:1px solid white;
+	color:white;
+	height:200px;
+	marign-left:50px;
+	margin-top:50px;
+	/*RGB property*/
+	/*opacity:0.5;*/
+	width:400px;
+}
+#childid3{
+	/*HSL/HSLA color model - Hue (0-359) Saturation (0-100%) Lightness(0-100% - 0% =black - 100% = white; 50% = hue ) Alpha (0-1)*/
+	/*background-color:HSL(240,100%,50%);*/
+	/**/
+	background-color:HSLA(128,70%,20%,0.5);
+	/**/
+	border:1px solid white;
+	color:white;
+	height:200px;
+	marign-left:50px;
+	margin-top:50px;
+	/*RGB property*/
+	/*opacity:0.5;*/
+	width:400px;
+}

@@ -1,0 +1,9 @@
+/*Border sample*/
+div{
+background-color:RGBA(200,149,150,0.15);
+border: 1px solid hotpink;
+/*border - radius */
+border-radius : 30px 15px 25px 50px;
+width: 50px;
+height: 50px;
+}

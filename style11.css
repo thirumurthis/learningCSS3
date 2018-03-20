@@ -1,0 +1,20 @@
+/*border image.*/
+img{
+		   /*border: 50px solid transparent; */
+		   /*border image property with  normal property
+		   border should be used when we using the border image*/
+		  
+/*		  border-image: url(frame.jpg) 19% 17% 14% 15%;*/
+		   
+		   /*border image with different property*/
+		   border: 25px solid transparent;
+		   border-image: url(frame.jpg);
+		   border-image-slice:30;
+		   border-image-repeat:round;
+		   border-image-outset:20px;
+		   height: 250px;
+			padding:25px;
+			width:200px;		   
+		   margin-left: 150px;
+		   margin-right: 50px; 
+		}

@@ -1,0 +1,44 @@
+ img{
+	 border: 1px solid black;
+	 height: 200px;
+	 width: 200px;
+ }
+ 
+ 
+ img#translate{
+	 border:1px solid black;
+	 height:200px;
+	 transform: translate(15px,40px);
+	 width: 200px;
+ }
+ 
+ 
+ /* Translate: */
+ .itemid1:hover{
+  transform:translate(100px,150px); 
+ }
+ 
+ 
+ /* scale */
+.itemid2:hover{
+	
+	border : 1px solid black;
+	margin-top:70px;
+	height:200px;
+	transform:scale(1.5,1.5);
+ }
+ /*rotate */
+ .itemid3:hover{
+	
+	border : 1px solid black;
+	margin-top:70px;
+	height:200px;
+	transform:rotate(45deg);
+ }
+ /*skew x y */
+ .itemid4:hover{
+	border : 1px solid blue;
+	margin-top:70px;
+	height:200px;
+	transform:skew(30deg,30deg);
+ }

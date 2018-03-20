@@ -1,0 +1,32 @@
+/** Defining */
+@keyframes myanim{
+0% {background:black}
+25% {background:red}
+50% {background:green}
+75% {background:blue}
+100% {background:white}
+}
+
+/* binding */
+/*div{
+	
+	animation:myanim 10s linear 2s infinite alternate;
+}*/
+
+@keyframes myanim1{
+0% {left:0px;top:0px;}
+25% {left:200px;top:0px;}
+50% {left:200px;top:200px;}
+75% {left:0px;top:200px;}
+100% {left:0px;top:0px;}
+	
+}
+div{
+	animation-name:myanim1;
+	animation-duration:5s;
+	animation-timing-function:ease-in-out;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	position:relative;
+}
